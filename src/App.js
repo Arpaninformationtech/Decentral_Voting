@@ -14,6 +14,7 @@ function App() {
   const [state, setState] = useState({
     web3: null,
     contract: null,
+    
   });
   const [account, setAccount] = useState("Not connected");
 
